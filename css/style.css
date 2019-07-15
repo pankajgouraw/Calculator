@@ -1,0 +1,44 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Raleway', sans-serif;
+}
+.container{}
+.operationScreen{display: flex;
+                 align-items: center; 
+             }
+.inputOutputScreen{
+        display: flex;
+    flex-direction: column;
+    /*border: 1px solid;*/
+    flex-grow: 1;
+}
+.inputOutputScreen input{
+height: 30px;
+text-align: right;
+padding: 0px 5px;
+border: none;
+}
+.backButton{width:150px; height: 60px;display: flex; justify-content: center;align-items: center;}
+.backButton span{
+
+}
+.numberSection{display: flex;    display: flex;
+    background: #DDD;}
+.inputButtonsContainer{flex-grow:1; }
+.mathSymbol{ width:150px; }
+.row{display: flex;}
+.row div{ 
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.mathSymbol div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.row div span{
+	
+}
