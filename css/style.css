@@ -14,19 +14,34 @@
     flex-grow: 1;
 }
 .inputOutputScreen input{
-height: 30px;
+height: 40px;
 text-align: right;
 padding: 0px 5px;
 border: none;
+font-size: 17px;
+font-weight: 600;
+color: #514e4e;
 }
-.backButton{width:150px; height: 60px;display: flex; justify-content: center;align-items: center;}
-.backButton span{
+.clearButton{
+background: red;
+color: #fff;
+font-weight: 600;
+    width:150px; height: 80px;display: flex; justify-content: center;align-items: center;}
+.clearButton span{
 
 }
 .numberSection{display: flex;    display: flex;
-    background: #DDD;}
+    background: #e8e8e8;
+
+font-size: 30px;
+
+font-weight: 500; }
 .inputButtonsContainer{flex-grow:1; }
-.mathSymbol{ width:150px; }
+.mathSymbol{
+ width: 150px;
+background: #c0caca;
+color: #000;
+    }
 .row{display: flex;}
 .row div{ 
 	flex-grow: 1;
