@@ -1,7 +1,9 @@
 *{
     margin:0px;
     padding:0px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
+font-family: 'Karla', sans-serif;
+    font-weight: 500;
 }
 .container{}
 .operationScreen{display: flex;
@@ -13,6 +15,11 @@
     /*border: 1px solid;*/
     flex-grow: 1;
 }
+
+.inputOutputScreen input:focus{
+    outline:none;
+}
+
 .inputOutputScreen input{
 height: 40px;
 text-align: right;
@@ -23,9 +30,9 @@ font-weight: 600;
 color: #514e4e;
 }
 .clearButton{
-background: red;
+/*background: red;*/
 color: #fff;
-font-weight: 600;
+
     width:150px; height: 80px;display: flex; justify-content: center;align-items: center;}
 .clearButton span{
 
@@ -35,11 +42,11 @@ font-weight: 600;
 
 font-size: 30px;
 
-font-weight: 500; }
+}
 .inputButtonsContainer{flex-grow:1; }
 .mathSymbol{
  width: 150px;
-background: #c0caca;
+/*background: #c0caca;*/
 color: #000;
     }
 .row{display: flex;}
@@ -56,4 +63,13 @@ color: #000;
 }
 .row div span{
 	
+}
+
+.mathSymbol div:active{
+    background:red;
+}
+
+.active{
+    background: red;
+    transition: 0.2s all;
 }
