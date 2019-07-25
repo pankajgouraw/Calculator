@@ -55,9 +55,16 @@ $(document).ready(function(){
         input.val(newValue);
      }
 
-    if(data=='/' || data=='+' || data=='-' || data=='*'){
 
+      if(data=='/' || data=='+' || data=='-' || data=='*'){
+      	// var str = input.val().replace(/[^-()\d/*+.]/g, '');
+       // console.log(eval(str));
+ 	   	// 	result = eval(input.val());
+	   		// input.val(result);
       }
+
+
+
 
    });
   
